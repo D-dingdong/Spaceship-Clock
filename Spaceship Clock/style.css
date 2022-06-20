@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: #DFF6FF;
+}
+
+
+.clock {
+  height: 200px;
+  width: 480px;
+  border: 10px solid #DFF6FF;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 15%;
+}
+
+
+#clock {
+  color: #DFF6FF;
+  text-align: center;
+  margin: auto;
+  margin-top: 65px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 4rem;
+  /* position: absolute; */
+}
+
+#rocketEarth {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 800px;
+  z-index: -1;
+}
